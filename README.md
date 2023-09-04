@@ -75,18 +75,35 @@ En cuanto a las imagente utilizadas, puedo hablar en general, las he obtenido de
 </section>
 <section>
         <h2 align="center"> Diseños</h2>
-<h3 align="center" >Modelo Desktop</h3>
+<h3 align="center" >Modelo Mobile-first</h3>
         <article>
-             <b>HOME</b>   
+             <b>BARRA DE NAVEGACION</b> <hr/>
+             <div align="center"><img src="img-readme/nav.PNG" alt="NAV" style="width: 300px;" /></div>
+        </article><br/><br/>
+        <article>
+        <article>
+             <b>HOME</b> <hr/>
+             <div align="center"><img src="img-readme/home-1.PNG" alt="Home" style="width: 300px;" /></div>
+        <div align="center"><img src="img-readme/home2.PNG" alt="Home" style="width: 300px;" /></div>  
+        <div align="center"><img src="img-readme/home3.PNG" alt="Home" style="width: 300px;" /></div>
+                <div align="center"><img src="img-readme/home4.PNG" alt="Home" style="width: 300px;" /></div>  
+        </article><br/><br/>
+        <article>
+             <b>FAMILY</b><hr/>
+                <div align="center"><img src="img-readme/familia1.PNG" alt="familia" style="width: 300px;" /></div>
+        <div align="center"><img src="img-readme/familia2.PNG" alt="Familia" style="width: 300px;" /></div>  
+        </article><br/><br/>
+        <article>
+             <b>BEST FRIEND</b><hr/>
+                <div align="center"><img src="img-readme/mejor-amigo.PNG" alt="mejor-amigo" style="width: 300px;" /></div>
+        </article><br/><br/>
+        <article>
+             <b>GALERIA</b><hr/>
+                <div align="center"><img src="img-readme/galeria.PNG" alt="galeria" style="width: 300px;" /></div>
         </article>
         <article>
-             <b>FAMILY</b>   
-        </article>
-        <article>
-             <b>BEST FRIEND</b>   
-        </article>
-        <article>
-             <b>GALERIA</b>   
+             <b>Pie de Página </b><hr/>
+                <div align="center"><img src="img-readme/footer.PNG" alt="footer" style="width: 300px;" /></div>
         </article>
         
 </section>

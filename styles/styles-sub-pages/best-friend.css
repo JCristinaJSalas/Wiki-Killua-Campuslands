@@ -1,0 +1,68 @@
+#best-friend {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(80, 84, 88, 0.6),
+      rgba(80, 84, 88, 0.6)
+    ),
+    url("../../images/bestfriend/background_friends.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 4% 0;
+  width: 100vw;
+  position: relative;
+}
+#best-friend .container-best-friend {
+  width: 100vw;
+  margin: 0 auto;
+}
+#best-friend .container-title {
+  width: 90%;
+  padding-top: 5%;
+}
+#best-friend .container-title h3 {
+  width: 90%;
+  color: #ff971d;
+  text-shadow: 1px -2px 4px rgba(0, 0, 0, 0.5);
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 800;
+  border-bottom: 0.2rem solid #ff971d;
+  text-align: end;
+}
+#best-friend .container-title h5 {
+  width: 100%;
+  color: #ff971d;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: end;
+}
+
+#best-friend .container-best-friend-p {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 90%;
+}
+
+#best-friend .container-p {
+  color: #fff;
+  font-family: var(--font-texto);
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: justify;
+  padding: 15px;
+  margin: 20px;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 13px;
+}
+
+
+#best-friend .container-best-friend-img {
+    display: none;
+}
+

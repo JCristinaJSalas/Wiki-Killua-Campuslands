@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Overpass:wght@100;300;400&display=swap");
+/* variables for colors and fonts */
+:root {
+  --primary-color: #2e347f;
+  /* blue */
+  --secondary-color: #754571;
+  --thrid-color: #716d95;
+  /* purple */
+  --text-color: #000;
+  --font-title: "Overpass", sans-serif;
+  --font-texto: "Mulish", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+
+  font-style: normal;
+  line-height: normal;
+}
+html {
+  font-size: 16px;
+  width: 100vw;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+.active{
+  color: var(--secondary-color) !important;
+  font-weight: 800;
+  padding: 0 15px;
+  border-left: 3px solid var(--secondary-color);
+  border-right: 3px solid var(--secondary-color);
+
+}

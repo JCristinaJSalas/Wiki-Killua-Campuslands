@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Overpass:wght@100;300;400&display=swap");
+
+@media screen and (min-width: 760px) {
+  /* Family's Section */
+#family {
+  background-color: #000;
+}
+  #family .container-family {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.77),
+      rgba(0, 0, 0, 0.77)
+    ),
+    url("../../images/family/family.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    
+  }
+  #family .container-family-title {
+    font-size: 2rem;
+    font-weight: 800;
+    width: 320px;
+    margin: 15px;
+  }
+  #family .container-family-person {
+    margin: 0 15px;
+    width: 320px;
+    height: 120px;
+  }
+  #family .container-family-img {
+    position: absolute;
+    top: -179px;
+    left: 54px;
+  }
+  #family .container-family-person {
+    margin-top: 30%;
+    width: 220px;
+  }
+  #sister .container-purpose_life {
+    flex-direction: row;
+  }
+  #sister .container-purpose-life-img {
+    display: block;
+    width: 40vw;
+    text-align: center;
+  }
+  #sister .alluka-paragraph{
+    margin: 0 25px;
+  }
+  #sister .container-alluka-title h2,
+  #sister .container-purpose-life-p h3 {
+    font-size: 2.3rem;
+  }
+  
+}
+
+@media screen and (min-width: 1023px) {
+  #family .container-family {
+    padding-top: 0;
+    gap: 47px;
+  }
+  #family .container-family-person {
+    margin-top: 20%;
+  }
+  #family .container-family-person .mom {
+    top: -180px;
+    left: 60px;
+  }
+  #family .brother-millu {
+    top: -180px;
+    left: 55px;
+  }
+  #sister .container-alluka-title h2,
+  #sister .container-purpose-life-p h3 {
+    font-size: 3.3rem;
+  }
+  #sister .alluka-img {
+    width: 80%;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1853px) {
+  #family {
+    min-height: 90vh;
+  }
+  #family .container-family {
+    padding-top: 0;
+    gap: 10px 147px;
+  }
+  #family .container-family-person {
+    margin-top: 15%;
+    width: 300px;
+  }
+  #family .container-family-person .mom {
+    top: -180px;
+    left: 100px;
+  }
+  #family .brother-millu {
+    top: -180px;
+    left: 85px;
+  }
+  #sister .container-purpose_life{
+    width: 70%;
+    text-align: justify;
+    border-radius: 20px;
+  }
+  #sister .container-purpose-life-p p , #sister .alluka-paragraph {
+    width: 70%;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: rgba(217, 217, 217, 0.705);
+  }
+  #sister .alluka-img {
+    width: 80%;
+    height: 350px;
+  }
+}

@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Overpass:wght@100;300;400&display=swap");
+
+/* Family's Section */
+#family {
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.84);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#family .container-family {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  height: 100%;
+  margin-top: 10px;
+}
+#family .container-family-title {
+  color: #fff;
+  font-family: var(--font-title);
+  font-size: 1.8rem;
+  font-weight: 800;
+  width: 40%;
+  margin: 5px;
+}
+#family .container-family-person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+  width: 220px;
+  height: 100%;
+  margin: 5px;
+  text-align: center;
+  margin-top: 190px;
+}
+#family .container-family .grandfather {
+  background-color: rgba(53, 43, 75, 1);
+  color: rgba(107, 98, 146, 0.8);
+}
+#family .container-family .father {
+  background-color: rgba(127, 109, 169, 1);
+  color: rgba(142, 127, 177, 1);
+}
+#family .container-family .mother {
+  background-color: rgba(93, 78, 114, 1);
+  color: rgba(142, 127, 177, 1);
+}
+#family .container-family .brother {
+  background-color: rgba(104, 146, 142, 1);
+  color: rgba(25, 75, 73, 1);
+}
+#family .container-family .brother2 {
+  background-color: rgba(228, 199, 220, 1);
+  color: rgba(207, 155, 191, 1);
+}
+#family .container-family .sister {
+  background-color: rgba(164, 198, 151, 1);
+  color: rgba(54, 97, 73, 1);
+}
+#family .container-family .brother3 {
+  background-color: rgba(74, 72, 82, 1);
+  color: rgba(24, 22, 22, 1);
+}
+#family .container-family-img {
+  position: absolute;
+  top: -179px;
+  left: -2px;
+}
+#family .container-family-person .mom {
+  top: -180px;
+  left: 31px;
+}
+#family .brother-millu {
+  top: -180px;
+  left: 25px;
+}
+#family .container-family-img img {
+  width: 100%;
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  filter: drop-shadow(0 -12px 5px rgba(0, 0, 0, 0.7));
+}
+#family .container-family-info {
+  font-family: var(--font-title);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.68px;
+}
+#family .container-family-info h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+#family .container-family-info h5 {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-align: end;
+}
+#family .container-family-info h4 {
+  color: #fff;
+  font-family: var(--font-texto);
+  font-size: 0.97rem;
+  font-weight: 600;
+  letter-spacing: 0.825px;
+}
+
+/* Sister's Section */
+#sister {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(217 217 217 / 0.46),
+      rgb(217 217 217 / 0.46)
+    ),
+    url("../../images/sister/background_sister.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 5% 0;
+  width: 100vw;
+}
+#sister .container-sister,
+#sister .container-purpose_life,
+#sister .container-purpose-life-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+#sister .container-purpose-life-img {
+  display: none;
+}
+#sister .container-purpose-life-p {
+  width: 100%;
+}
+#sister .container-purpose-life-p h3 {
+  width: 100%;
+  text-align: end;
+  padding: 10px;
+  color: rgba(54, 97, 73, 1);
+  border-bottom: 0.5rem solid rgba(54, 97, 73, 1);
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+#sister .container-purpose-life-p p , #sister .alluka-paragraph{
+  width: 90%;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 0.705);
+}
+#sister .container-alluka {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#sister .container-alluka-title, #sister .container-alluka-title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+#sister .container-alluka-title h2 {
+  flex-direction: column;
+  padding: 0 15px;
+  color: rgba(54, 97, 73, 1);
+  font-family: var(--font-title);
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -0.68px;
+}
+#sister .container-alluka-title span {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 800;
+  text-align: end;
+}
+#sister .alluka-img {
+  width: 60%;
+  height: 200px;
+}
+#sister .alluka-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
